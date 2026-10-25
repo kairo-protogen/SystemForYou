@@ -1,0 +1,77 @@
+body
+{
+    background-color: black;
+    height: 100vh;
+}
+main
+{
+justify-content: center;
+align-items: center;
+display: flex;
+padding: 50px;
+}
+
+section
+{
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+section h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+
+section h2:hover
+{
+    font-size: 110px;
+    color: red;
+}
+
+article
+{
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px white solid ;
+    border-radius: 20px;
+    padding: 30px;
+    width: 1100px;
+    color: white;
+    font-size: 25px;
+}
+
+article p
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#instruccion
+{
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 10px;
+}
+article button
+{
+    border: 1px white solid;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 1s;
+}
+
+article button:hover
+{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255, 1);
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}
